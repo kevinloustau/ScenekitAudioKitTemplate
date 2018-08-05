@@ -40,5 +40,9 @@ class GameController: NSObject, SCNSceneRendererDelegate {
     func renderer(_ renderer: SCNSceneRenderer, updateAtTime time: TimeInterval) {
         // Called before each frame is rendered
     }
+    
+    func highlightNodes(atPoint p: NSPoint) {
+        print(p)
+    }
 
 }
